@@ -49,6 +49,10 @@ setup(
             "SQLAlchemy==1.4.46",
             "timeout-decorator==0.5.0",
         ],
+        "streaming-kinesis": [
+            "boto3==1.24.11",
+            "botocore==1.27.11",
+        ],
     },
     entry_points={
         "console_scripts": [
